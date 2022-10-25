@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap&_v=20221025123950" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221025123950"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20221025123950">
+    <title>Главная HighLight Студия интерьеров</title>
+</head>
+
+<body>
+    
+    <div class="preloader" id="preloader">
+        <div class="preloader__loader">
+            <span class="preloader__percents">HI
+                <span id="space">&nbsp;</span>
+                <span id="percents">0</span><span id="percent">%</span>
+                <span class="hilight__hide" id="hilight">light</span>
+            </span>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <header class="header">
+    <div class="container">
+        <div class="header_logo">
+            <a href="index.html">
+                <p>logo</p>
+            </a>
+        </div>
+        <!-- <div class="menu_conteiner"> -->
+        <div class="header_menu menu">
+            <div class="menu_icon">
+                <span></span>
+                <p>Menu</p>
+            </div>
+            <nav class="menu_body">
+                <ul class="menu_list">
+                    <li><a href="index.html" class="menu_link">Home</a></li>
+                    <li><a data-goto=".top_nft_section" href="#" class="menu_link">Projects</a></li>
+                    <li><a data-goto=".buttons_group" href="#" class="menu_link">About us</a></li>
+                    <li><a data-goto=".footer" href="#" class="menu_link">Blog</a></li>
+                    <li><a href="contacts.html" class="menu_link">Contacts</a></li>
+                    <li><a class="btn_send_1" href="#">Send Request</a></li>
+
+                </ul>
+                <div class="menu_contacts">
+                    <div class="contacts_social">
+                        <a href="#">Fb</a>
+                        <a href="#">In</a>
+                        <a href="#">Be</a>
+                    </div>
+                    <div class="contacts_pin">
+                        <img src="img/icons/maps-and-flags.svg" alt="">
+                        <p>Berlin</p>
+                        <img src="img/icons/DDArrow.svg" alt="">
+                    </div>
+                    <div class="contacts_tel_mail">
+                        <a href="tel:+380935705222">+380935705222</a>
+                        <a href="mailto:info@hi-light.pl">info@hi-light.pl</a>
+                    </div>
+                </div>
+            </nav>
+            <ul class="menu_btns">
+                <li><a class="btn_lang" href="#">En</a></li>
+                <li><a class="btn_send" href="#">Send Request</a></li>
+            </ul>
+        </div>
+        <!-- </div> -->
+    </div>
+</header>
+        <main>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><picture><source srcset="img/swiper/slide_1.webp" type="image/webp"><img src="img/swiper/slide_1.png" alt=""></picture></div>
+                    <div class="swiper-slide"><picture><source srcset="img/swiper/slide_2.webp" type="image/webp"><img src="img/swiper/slide_2.png" alt=""></picture></div>
+                    <div class="swiper-slide"><picture><source srcset="img/swiper/slide_3.webp" type="image/webp"><img src="img/swiper/slide_3.png" alt=""></picture></div>
+                    <div class="swiper-slide"><picture><source srcset="img/swiper/slide_4.webp" type="image/webp"><img src="img/swiper/slide_4.png" alt=""></picture></div>
+                    <div class="swiper-slide"><picture><source srcset="img/swiper/slide_5.webp" type="image/webp"><img src="img/swiper/slide_5.png" alt=""></picture></div>
+                </div>
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+            <div class="swiper_nav">
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"><span class="current_slide"></span></div>
+                <div class="swiper-button-next"><span class="total_slide">05</span></div>
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="slogan">
+                <h3>
+                    Thoughtful <br> making of space
+                </h3>
+                <p>&#9135; Discover more &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></p>
+            </div>
+            <div class="menu_contacts_main">
+                <div class="contacts_social_main">
+                    <a href="#">Fb</a>
+                    <a href="#">In</a>
+                    <a href="#">Be</a>
+                </div>
+                <div class="contacts_pin_main">
+                    <img src="img/icons/maps-and-flags.svg" alt="">
+                    <p>Berlin</p>
+                    <img src="img/icons/DDArrow.svg" alt="">
+                </div>
+                <div class="contacts_tel_mail_main">
+                    <a href="tel:+380935705222">+380935705222</a>
+                    <a href="mailto:info@hi-light.pl">info@hi-light.pl</a>
+                </div>
+            </div>
+            <div class="next_project">
+                <p>Next Project</p>
+                <h2>Perfect
+                    proportions</h2>
+            </div>
+
+        </main>
+        <section class="company">
+            <div class="company_row1">
+                <div class="row1_text">
+                    <h3>Company Philosophy</h3>
+                    <p>The basic philosophy of our studio is to create individual, aesthetically stunning solutions for
+                        our customers by lightning-fast development of projects employing unique styles and
+                        architecture. Even if you don't have a ready sketch of what you want - we will help you get the
+                        result.</p>
+                    <p>We can also help you create harmony out of seemingly completely incompatible elements in the
+                        interior or the exterior design. Do you want to combine classics and abstract art? Modern and
+                        retro? Love everything associated with the 1940's? No problem!</p>
+                    <a href="">&#9135; Discover more &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+                </div>
+                <div class="row1_img">
+                    <picture><source srcset="img/main_img_1.webp" type="image/webp"><img src="img/main_img_1.png" alt=""></picture>
+                </div>
+            </div>
+            <div class="company_row2">
+                <div class="row2_img">
+                    <picture><source srcset="img/main_img_2.webp" type="image/webp"><img class="row2_img_img1" src="img/main_img_2.png" alt=""></picture>
+                    <picture><source srcset="img/main_img_3.webp" type="image/webp"><img class="row2_img_img2" src="img/main_img_3.png" alt=""></picture>
+                </div>
+                <div class="row2_text">
+                    <span>“</span>
+                    <p>We can also help you create harmony out of seemingly completely incompatible elements in the
+                        interior or the exterior design. </p>
+                </div>
+            </div>
+        </section>
+        <section class="our_projects">
+            <div class="our_projects_title">
+                <h3>Our Projects</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere.
+                    Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.</p>
+            </div>
+            <div class="our_projects_cards">
+                <div class="projects_card">
+                    <picture><source srcset="img/swiper/slide_1.webp" type="image/webp"><img src="img/swiper/slide_1.png" alt=""></picture>
+                    <div class="projects_card_top">
+                        <p>Lodz</p>
+                        <p>16.10.2018</p>
+                        <p>80 sq.m</p>
+                    </div>
+                    <div class="projects_card_title">Minimalist style home</div>
+                    <a class="projects_card_link" href="">&#9135; Discover more
+                        &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+                </div>
+                <div class="projects_card">
+                    <picture><source srcset="img/swiper/slide_3.webp" type="image/webp"><img src="img/swiper/slide_3.png" alt=""></picture>
+                    <div class="projects_card_top">
+                        <p>Lodz</p>
+                        <p>16.10.2018</p>
+                        <p>80 sq.m</p>
+                    </div>
+                    <div class="projects_card_title">Eyewear store interior</div>
+                    <a class="projects_card_link" href="#">&#9135; Discover more
+                        &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+                </div>
+                <div class="projects_card large">
+                    <picture><source srcset="img/swiper/slide_4.webp" type="image/webp"><img src="img/swiper/slide_4.png" alt=""></picture>
+                    <div class="projects_card_top">
+                        <p>Lodz</p>
+                        <p>16.10.2018</p>
+                        <p>80 sq.m</p>
+                    </div>
+                    <div class="projects_card_bottom">
+                        <div class="projects_card_title">Residence by the lighthouse</div>
+                        <a class="projects_card_link" href="">&#9135; Discover more
+                            &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+                    </div>
+                </div>
+                <div class="projects_card">
+                    <picture><source srcset="img/swiper/slide_5.webp" type="image/webp"><img src="img/swiper/slide_5.png" alt=""></picture>
+                    <div class="projects_card_top">
+                        <p>Lodz</p>
+                        <p>16.10.2018</p>
+                        <p>80 sq.m</p>
+                    </div>
+                    <div class="projects_card_title">Eyewear store interior</div>
+                    <a class="projects_card_link" href="#">&#9135; Discover more
+                        &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+                </div>
+                <div class="projects_card small">
+                    <div>See more 60 projects</div>
+                    <picture><source srcset="img/swiper/slide_5.webp" type="image/webp"><img src="img/swiper/slide_5.png" alt=""></picture>
+                </div>
+            </div>
+            <div class="make_request">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere.
+                    Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.</p>
+                <button>Make request</button>
+                <div class="img_make">
+                    <div class="img_make_1">
+                        <picture><source srcset="img/swiper/slide_1.webp" type="image/webp"><img src="img/swiper/slide_1.png" alt=""></picture>
+                    </div>
+                    <div class="img_make_2">
+                        <picture><source srcset="img/swiper/slide_2.webp" type="image/webp"><img src="img/swiper/slide_2.png" alt=""></picture>
+                    </div>
+                    <div class="img_make_3">
+                        <picture><source srcset="img/swiper/slide_3.webp" type="image/webp"><img src="img/swiper/slide_3.png" alt=""></picture>
+                    </div>
+                    <div class="img_make_4">
+                        <picture><source srcset="img/swiper/slide_4.webp" type="image/webp"><img src="img/swiper/slide_4.png" alt=""></picture>
+                    </div>
+                    <div class="img_make_5">
+                        <picture><source srcset="img/swiper/slide_5.webp" type="image/webp"><img src="img/swiper/slide_5.png" alt=""></picture>
+                    </div>
+                    <div class="img_make_6">
+                        <picture><source srcset="img/swiper/slide_1.webp" type="image/webp"><img src="img/swiper/slide_1.png" alt=""></picture>
+                    </div>
+                    <div class="img_make_7">
+                        <picture><source srcset="img/swiper/slide_2.webp" type="image/webp"><img src="img/swiper/slide_2.png" alt=""></picture>
+                    </div>
+                    <div class="img_make_8">
+                        <picture><source srcset="img/swiper/slide_3.webp" type="image/webp"><img src="img/swiper/slide_3.png" alt=""></picture>
+                    </div>
+                    <div class="img_make_9">
+                        <picture><source srcset="img/swiper/slide_4.webp" type="image/webp"><img src="img/swiper/slide_4.png" alt=""></picture>
+                    </div>
+                    <div class="img_make_10">
+                        <picture><source srcset="img/swiper/slide_5.webp" type="image/webp"><img src="img/swiper/slide_5.png" alt=""></picture>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="social">
+            <div class="social_text">
+                <h3>@hilight.design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere.
+                </p>
+                <div class="social_img">
+                    <div class="social_img_2">
+                        <picture><source srcset="img/social_img_2.webp" type="image/webp"><img src="img/social_img_2.png" alt=""></picture>
+                    </div>
+                    <div class="social_img_1">
+                        <picture><source srcset="img/swiper/slide_1.webp" type="image/webp"><img src="img/swiper/slide_1.png" alt=""></picture>
+                    </div>
+                    <div class="social_img_3">
+                        <picture><source srcset="img/swiper/slide_2.webp" type="image/webp"><img src="img/swiper/slide_2.png" alt=""></picture>
+                    </div>
+                    <div class="social_img_4">
+                        <picture><source srcset="img/social_img_4.webp" type="image/webp"><img src="img/social_img_4.png" alt=""></picture>
+                    </div>
+                    <div class="social_img_5">
+                        <picture><source srcset="img/social_img_5.webp" type="image/webp"><img src="img/social_img_5.png" alt=""></picture>
+                    </div>
+                    <div class="social_img_6">
+                        <picture><source srcset="img/social_img_6.webp" type="image/webp"><img src="img/social_img_6.png" alt=""></picture>
+                    </div>
+                    <div class="social_img_8">
+                        <picture><source srcset="img/social_img_8.webp" type="image/webp"><img src="img/social_img_8.png" alt=""></picture>
+                    </div>
+                    <div class="social_img_7">
+                        <picture><source srcset="img/swiper/slide_3.webp" type="image/webp"><img src="img/swiper/slide_3.png" alt=""></picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <picture><source srcset="img/contacts_bg.webp" type="image/webp"><img src="img/contacts_bg.png" alt=""></picture>
+                <div class="contacts_container">
+        <div class="contacts_title">
+            <h2>Get in touch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae
+                posuere. </p>
+        </div>
+        <div class="contacts_row2">
+            <div class="contacts_cityes">
+                <div class="cityes_item">
+                    <h3>Kyiv</h3>
+                    <p>(209) 555-0104
+                        6391 Elgin St. Celina,
+                        Delaware 10299</p>
+                </div>
+                <div class="cityes_item">
+                    <h3>Lviv</h3>
+                    <p>(209) 555-0104
+                        6391 Elgin St. Celina,
+                        Delaware 10299</p>
+                </div>
+                <div class="cityes_item">
+                    <h3>Kharkiv</h3>
+                    <p>(209) 555-0104
+                        6391 Elgin St. Celina,
+                        Delaware 10299</p>
+                </div>
+            </div>
+            <div class="contacts_mail">
+                <a href="mailto:info@gmail.com">info@gmail.com</a>
+                <div class="contacts_mail_social">
+                    <a href="#">Fb</a>
+                    <a href="#">In</a>
+                    <a href="#">Be</a>
+                </div>
+            </div>
+        </div>
+        <button class="button">Make request</button>
+    </div>
+    <footer class="footer">
+    <!-- <div class="footer"> -->
+        <p>© Copyright 2018. All rights reserved</p>
+        <div class="footer_right">
+            <p>Made with love in</p>
+            <div class="footer_right_slogan">
+                <p>The First</p>
+                <span>The Last.</span>
+            </div>
+            <!-- <picture><source srcset="../img/icons/Group.webp" type="image/webp"><img src="../img/icons/Group.png" alt=""></picture> -->
+        </div>
+    <!-- </div> -->
+</footer>
+
+        </section>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js?_v=20221025123950"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221025123950"></script>
+    <script src="js/app.min.js?_v=20221025123950"></script>
+</body>
+
+</html>
