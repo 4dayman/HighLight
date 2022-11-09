@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Проекты HighLight Студия интерьеров</title>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        <header id="header" class="header">
+    <div class="container">
+        <div class="header_logo logo_dark">
+            <a href="index.html">
+                <p>logo</p>
+            </a>
+        </div>
+        <div class="header_menu menu">
+            <div class="menu_icon icon_dark">
+                <span></span>
+                <p>Menu</p>
+            </div>
+            <nav class="menu_body">
+                <ul class="menu_list list_dark">
+                    <li><a href="index.html" class="menu_link link_dark">Home</a></li>
+                    <li><a href="projects.html" class="menu_link link_dark">Projects</a></li>
+                    <li><a href="about.html" class="menu_link link_dark">About us</a></li>
+                    <li><a href="news.html" class="menu_link link_dark">Blog</a></li>
+                    <li><a href="contacts.html" class="menu_link link_dark">Contacts</a></li>
+                    <li><a class="btn_send_1" href="#popup">Send Request</a></li>
+
+                </ul>
+                <div class="menu_contacts">
+                    <div class="contacts_social">
+                        <a href="#">Fb</a>
+                        <a href="#">In</a>
+                        <a href="#">Be</a>
+                    </div>
+                    <div class="contacts_pin">
+                        <img src="img/icons/maps-and-flags.svg" alt="">
+                        <select name="city" id="">
+                            <option selected value="Berlin">Berlin</option>
+                            <option value="Kyiv">Kyiv</option>
+                            <option value="Lviv">Lviv</option>
+                            <option value="Kharkiv">Kharkiv</option>
+                        </select>
+                    </div>
+                    <div class="contacts_tel_mail">
+                        <a href="tel:+380935705222">+380935705222</a>
+                        <a href="mailto:info@hi-light.pl">info@hi-light.pl</a>
+                    </div>
+                </div>
+            </nav>
+            <ul class="menu_btns">
+                <li><a class="btn_lang lang_dark" href="#">En</a></li>
+                <li><a class="btn_send send_dark" href="#popup">Send Request</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+        <main class="main_news">
+            <div class="news_title projects_title">
+                <h3>Our Projects</h3>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae
+                        posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.</p>
+                    <ul class="sort_togle">
+                        <li class="togle" data-filter="all">House</li>
+                        <li class="togle" data-filter="large">Apartments</li>
+                        <li class="togle" data-filter="commerce">Commerce</li>
+                        <li class="togle" data-filter="architecture">Architecture</li>
+                    </ul>
+                    <select id="FilterSelect" class="sort_togle_select" >
+                        <option value="all">House</option>
+                        <option value=".large">Apartments</option>
+                        <option value=".commerce">Commerce</option>
+                        <option value=".architecture">Architecture</option>
+                    </select>
+                </div>
+            </div>
+            <div class="our_projects news_cards_wrapper">
+                <div id="Container" class="our_projects_cards">
+    <div class="projects_card architecture">
+        <img src="img/swiper/slide_1.png" alt="">
+        <div class="projects_card_top">
+            <p>Lodz</p>
+            <p>16.10.2018</p>
+            <p>80 sq.m</p>
+        </div>
+        <div class="projects_card_title">Minimalist style home</div>
+        <a class="projects_card_link" href="one_project.html">&#9135; Discover more
+            &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+    </div>
+    <div class="projects_card commerce">
+        <img src="img/swiper/slide_3.png" alt="">
+        <div class="projects_card_top">
+            <p>Lodz</p>
+            <p>16.10.2018</p>
+            <p>80 sq.m</p>
+        </div>
+        <div class="projects_card_title">Eyewear store interior</div>
+        <a class="projects_card_link" href="one_project.html">&#9135; Discover more
+            &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+    </div>
+    <div class="projects_card large">
+        <img src="img/swiper/slide_4.png" alt="">
+        <div class="projects_card_top">
+            <p>Lodz</p>
+            <p>16.10.2018</p>
+            <p>80 sq.m</p>
+        </div>
+        <div class="projects_card_bottom">
+            <div class="projects_card_title">Residence by the lighthouse</div>
+            <a class="projects_card_link" href="one_project.html">&#9135; Discover more
+                &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+        </div>
+    </div>
+    <div class="projects_card architecture">
+        <img src="img/swiper/slide_5.png" alt="">
+        <div class="projects_card_top">
+            <p>Lodz</p>
+            <p>16.10.2018</p>
+            <p>80 sq.m</p>
+        </div>
+        <div class="projects_card_title">Eyewear store interior</div>
+        <a class="projects_card_link" href="one_project.html">&#9135; Discover more
+            &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+    </div>
+    <div class="projects_card commerce">
+        <img src="img/swiper/slide_6.png" alt="">
+        <div class="projects_card_top">
+            <p>Lodz</p>
+            <p>16.10.2018</p>
+            <p>80 sq.m</p>
+        </div>
+        <div class="projects_card_title">Eyewear store interior</div>
+        <a class="projects_card_link" href="one_project.html">&#9135; Discover more
+            &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+    </div>
+    <div class="projects_card large">
+        <img src="img/swiper/slide_7.png" alt="">
+        <div class="projects_card_top">
+            <p>Lodz</p>
+            <p>16.10.2018</p>
+            <p>80 sq.m</p>
+        </div>
+        <div class="projects_card_bottom">
+            <div class="projects_card_title">Residence by the lighthouse</div>
+            <a class="projects_card_link" href="one_project.html">&#9135; Discover more
+                &#9135;&#9135;&#9135;&#9135;&#9135;<span></span></a>
+        </div>
+    </div>
+
+</div>
+<div class="make_request make_request_dark">
+    <div class="sidebar_text1">&#9135;&#9135;&#9135;&#9135;&#9135;&#9135; Make request</div>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere.
+        Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.</p>
+    <a href="#popup">Make request</a>
+    <div class="img_make">
+        <div class="img_make_1">
+            <img src="img/swiper/slide_1.png" alt="">
+        </div>
+        <div class="img_make_2">
+            <img src="img/swiper/slide_2.png" alt="">
+        </div>
+        <div class="img_make_3">
+            <img src="img/swiper/slide_3.png" alt="">
+        </div>
+        <div class="img_make_4">
+            <img src="img/swiper/slide_4.png" alt="">
+        </div>
+        <div class="img_make_5">
+            <img src="img/swiper/slide_5.png" alt="">
+        </div>
+        <div class="img_make_6">
+            <img src="img/swiper/slide_1.png" alt="">
+        </div>
+        <div class="img_make_7">
+            <img src="img/swiper/slide_2.png" alt="">
+        </div>
+        <div class="img_make_8">
+            <img src="img/swiper/slide_3.png" alt="">
+        </div>
+        <div class="img_make_9">
+            <img src="img/swiper/slide_4.png" alt="">
+        </div>
+        <div class="img_make_10">
+            <img src="img/swiper/slide_5.png" alt="">
+        </div>
+
+    </div>
+</div>
+            </div>
+            <footer class="footer footer_light">
+    <p>© Copyright 2018. All rights reserved</p>
+    <div class="footer_right">
+        <p>Made with love in</p>
+        <div class="footer_right_slogan right_slogan_light">
+            <p>The First</p>
+            <span>The Last.</span>
+        </div>
+    </div>
+</footer>
+        </main>
+    </div>
+    <div class="popup" id="popup">
+    <a href="#header" class="popup__area"></a>
+    <div class="popup__body">
+        <a href="#header" class="popup__close">&#9932;</a>
+        <div class="popup__content">
+            <div class="popup__content__wrapper">
+                <div class="popup__title">Make request</div>
+                <div class="popup__text">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="last name">
+                    <input type="text" placeholder="Phone">
+                    <input type="text" placeholder="Your city">
+                    <input type="text" placeholder="Email">
+                    <select name="Property type" id="">
+                        <option selected disabled>Property type</option>
+                        <option value="Property type 1">Property type 1</option>
+                        <option value="Property type 2">Property type 2</option>
+                        <option value="Property type 2">Property type 3</option>
+                    </select>
+                </div>
+                <input class="popup_last_input" type="text" placeholder="Your comment">
+            </div>
+            <div class="popup__content__wrapper">
+                <div class="popup__subtitle">Area (m2)</div>
+                <div class="block_form_input">
+                    <div class="radio_line"></div>
+                    <div class="radio_line_grid"></div>
+                    <div class="radiobuttons">
+                        <div class="radiobuttons__item">
+                            to 50
+                            <input checked type="radio" name="nameradio" value="50">
+                        </div>
+                        <div class="radiobuttons__item">
+                            50-150
+                            <input type="radio" name="nameradio" value="150">
+                        </div>
+                        <div class="radiobuttons__item">
+                            150-250
+                            <input type="radio" name="nameradio" value="250">
+                        </div>
+                        <div class="radiobuttons__item">
+                            250-400
+                            <input type="radio" name="nameradio" value="400">
+                        </div>
+                        <div class="radiobuttons__item">
+                            400-600
+                            <input type="radio" name="nameradio" value="250">
+                        </div>
+                        <div class="radiobuttons__item">
+                            600-800
+                            <input type="radio" name="nameradio" value="250">
+                        </div>
+                        <div class="radiobuttons__item">
+                            800-1000
+                            <input type="radio" name="nameradio" value="250">
+                        </div>
+                        <div class="radiobuttons__item">
+                            1000+
+                            <input type="radio" name="nameradio" value="250">
+                        </div>
+                    </div>
+                </div>
+                <div class="attach">
+                    <div class="attach_file">
+                        <input class="file_input" type="file" accept="" id="fileInput">
+                        <label for="fileInput">+</label>
+                        <div id="filePreview" class="file__preview"></div>
+                        <div class="file_input_text">
+                            <h3>Attach your file</h3>
+                            <h4>File size not more than 10 MB</h4>
+                        </div>
+                    </div>
+                    <a class="button popup_btn" href="#popup_1">Send Request</a>
+                </div>
+                <p class="descript">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English.</p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="popup_1">
+    <a href="#header" class="popup__area"></a>
+    <div class="popup_1__body">
+        <a href="#header" class="popup__close">&#9932;</a>
+        <div class="popup_1__content">
+            <div class="popup_1__content__wrapper">
+                <div class="popup_1__subtitle">Thank you for your message!</div>
+                <p class="descript_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu
+                    mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium
+                    velit.</p>
+                <a class="button popup_btn" href="#popup">Send again</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/app.min.js"></script>
+
+</body>
+
+</html>
